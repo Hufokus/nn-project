@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NN">
+      <UniqueIdentifier>{9ab019f4-1654-4eb7-a7af-292e9c65cc36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{384100f6-5b8d-4675-8bcd-15561402cb66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics">
+      <UniqueIdentifier>{f307fb3d-0dc9-4396-89c4-4c1884de0bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics">
+      <UniqueIdentifier>{e25d6347-7e5b-4043-98fe-a44c0a652d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NN\CudaCalcs">
+      <UniqueIdentifier>{65d51134-2e6a-469e-bfbc-a4f99343bf21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Environment">
+      <UniqueIdentifier>{de7d2f20-ba51-4fb2-858b-93c410f4e10f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Evolution">
+      <UniqueIdentifier>{d6e5d89b-4dd3-4da0-9ee1-fe17a2209a28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="MainProject\NN\CudaCalcs\cuda_calc.cu">
+      <Filter>NN\CudaCalcs</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainProject\NN\CudaCalcs\cuda_calc.h">
+      <Filter>NN\CudaCalcs</Filter>
+    </ClInclude>
+    <ClInclude Include="MainProject\NN\Layer.h">
+      <Filter>NN</Filter>
+    </ClInclude>
+    <ClInclude Include="MainProject\NN\matrix_supp.h">
+      <Filter>NN</Filter>
+    </ClInclude>
+    <ClInclude Include="MainProject\NN\Network.h">
+      <Filter>NN</Filter>
+    </ClInclude>
+    <ClInclude Include="MainProject\NN\Neuron.h">
+      <Filter>NN</Filter>
+    </ClInclude>
+    <ClInclude Include="MainProject\NN\NeuronsHolder.h">
+      <Filter>NN</Filter>
+    </ClInclude>
+    <ClInclude Include="MainProject\Engine\Graphics\graphics.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="MainProject\Engine\Physics\physics.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="MainProject\Tests.h" />
+    <ClInclude Include="MainProject\Engine\Environment\environment.h">
+      <Filter>Engine\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="MainProject\Evolution\Evolution.h">
+      <Filter>Evolution</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainProject\NN\Layer.cpp">
+      <Filter>NN</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProject\NN\matrix_supp.cpp">
+      <Filter>NN</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProject\NN\Network.cpp">
+      <Filter>NN</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProject\NN\Neuron.cpp">
+      <Filter>NN</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProject\NN\NeuronsHolder.cpp">
+      <Filter>NN</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProject\Engine\Graphics\graphics.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProject\Engine\Physics\physics.cpp">
+      <Filter>Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProject\Tests.cpp" />
+    <ClCompile Include="MainProject\Engine\Environment\environment.cpp">
+      <Filter>Engine\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="MainProject\Evolution\Evolution.cpp">
+      <Filter>Evolution</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
